@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className="pages" style={{height: '100vh'}}>
+      <div className="pages" style={{height: '90vh'}}>
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About />} />
