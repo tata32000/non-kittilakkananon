@@ -1,13 +1,24 @@
+import { SocialIcon } from "react-social-icons";
+import './index.css'
+
 export default function Home() {
   return (
     <>
-      <div id="Body">
+      <div id="Home">
         <h1>Non Kittilakkananon</h1>
         <p>
-          <a href="https://www.linkedin.com/in/non-kittilakkananon-047728b7/">
-            My LinkedIn
-          </a>
+          Electrical Engineering Student at the National University of Singapore
         </p>
+        <SocialIcon
+          bgColor="#21252b"
+          fgColor="white"
+          url="https://www.linkedin.com/in/non-kittilakkananon-047728b7/"
+        />
+        <SocialIcon
+          bgColor="#21252b"
+          fgColor="white"
+          url="https://github.com/tata32000"
+        />
       </div>
     </>
   );

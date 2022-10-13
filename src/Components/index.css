@@ -1,0 +1,38 @@
+h1 {
+  color: #fff !important;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+ul{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+}
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
