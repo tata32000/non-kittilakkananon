@@ -1,4 +1,13 @@
+#Home {
+  margin: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 13em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
 h1 {
+  margin: 20;
   color: #fff !important;
   font-size: 3.5rem;
   font-weight: 600;
@@ -8,9 +17,9 @@ p {
   font-size: 1.2rem;
   font-weight: 600;
 }
-ul{
-    font-size: 1.2rem;
-    font-weight: 600;
+ul {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 /* unvisited link */
 a:link {
