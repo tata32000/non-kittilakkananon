@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { NavDropdown, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 import "./Header.css";
@@ -8,35 +7,45 @@ import "./Header.css";
 export default function Header() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <BrowserView>
+      <BrowserView>
+        <Navbar bg="dark" variant="dark">
+          <Container>
             <Navbar.Brand as={Link} to="/">
               Non Kittilakkananon
             </Navbar.Brand>
-          </BrowserView>
-          <MobileView>
-            <Navbar.Brand as={Link} to="/">
-              Non
-            </Navbar.Brand>
-          </MobileView>
-          <Nav className="nav-link">
-            <BrowserView>
+            <Nav className="nav-link">
               <Nav.Link as={Link} to="/about">
                 About me
               </Nav.Link>
-            </BrowserView>
-            <MobileView>
-              <Nav.Link as={Link} to="/about">
-                About
+              <Nav.Link as={Link} to="/contact">
+                Contact
               </Nav.Link>
-            </MobileView>
-            <Nav.Link as={Link} to="/contact">
-              Contact
-            </Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+            </Nav>
+          </Container>
+        </Navbar>
+      </BrowserView>
+      <MobileView>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand as={Link} to="/">
+              Non Kittilakkananon
+            </Navbar.Brand>
+            <NavDropdown
+              title=""
+              align={{ lg: "start" }}
+              id="basic-nav-dropdown"
+              menuVariant="dark"
+            >
+              <NavDropdown.Item as={Link} to="/about">
+                About me
+              </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/contact">
+                Contact
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Container>
+        </Navbar>
+      </MobileView>
     </>
   );
 }
