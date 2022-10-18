@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import { NavDropdown, Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { BrowserView, MobileView } from "react-device-detect";
 import "./Header.css";
@@ -25,12 +25,27 @@ export default function Header() {
         </Navbar>
       </BrowserView>
       <MobileView>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" collapseOnSelect expand="sm">
           <Container>
             <Navbar.Brand as={Link} to="/">
               Non Kittilakkananon
             </Navbar.Brand>
-            <NavDropdown
+            <Navbar.Toggle
+              aria-controls="navbarScroll"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+            />
+            <Navbar.Collapse id="navbarScroll">
+              <Nav className="nav-link">
+                <Nav.Link as={Link} to="/about">
+                  About me
+                </Nav.Link>
+                <Nav.Link as={Link} to="/contact">
+                  Contact
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+            {/* <NavDropdown
               title=""
               align={{ lg: "start" }}
               id="basic-nav-dropdown"
@@ -42,7 +57,7 @@ export default function Header() {
               <NavDropdown.Item as={Link} to="/contact">
                 Contact
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Container>
         </Navbar>
       </MobileView>

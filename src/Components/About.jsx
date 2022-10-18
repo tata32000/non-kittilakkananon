@@ -31,7 +31,7 @@ export default function About() {
         <h2>Skills:</h2>
         <ul>
           <li>Programming Languages: Python, Java, JavaScript, C, C++</li>
-          <li>Web Development: React.js, Firebase</li>
+          <li>Web Development: React.js, Firebase, HTML, CSS</li>
         </ul>
       </div>
     </>
