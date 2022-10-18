@@ -11,16 +11,16 @@ function App() {
   // to do: work, about, contact
   // inspiration: https://diogotc.com
   return (
-    <Router>
-      <Header />
-      <div className="pages" style={{height: '90vh'}}>
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      </div>
-    </Router>
+    <div className="pages">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
