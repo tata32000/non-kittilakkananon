@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <>
       <div id="Home">
-        <h1><strong>Non Kittilakkananon</strong></h1>
+        <h1>
+          <strong>Non Kittilakkananon</strong>
+        </h1>
         <p>
           Electrical Engineering Student at the National University of Singapore
         </p>
@@ -13,11 +15,15 @@ export default function Home() {
           bgColor="#21252b"
           fgColor="white"
           url="https://www.linkedin.com/in/non-kittilakkananon-047728b7/"
+          target="_blank"
+          rel="noopener noreferrer"
         />
         <SocialIcon
           bgColor="#21252b"
           fgColor="white"
           url="https://github.com/tata32000"
+          target="_blank"
+          rel="noopener noreferrer"
         />
       </div>
     </>

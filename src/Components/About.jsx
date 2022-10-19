@@ -15,7 +15,13 @@ export default function About() {
         </p>
         <h2>Projects:</h2>
         <h3>
-          <a href="http://creativenoters.vercel.app/">Creative Noters</a>
+          <a
+            href="http://creativenoters.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Creative Noters
+          </a>
         </h3>
         <ul>
           <li>
@@ -23,7 +29,11 @@ export default function About() {
             to annotate on images and pdf.
           </li>
           <li>
-            <a href="https://github.com/parnikkapore/quiknotes-fe">
+            <a
+              href="https://github.com/parnikkapore/quiknotes-fe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github repo
             </a>
           </li>
