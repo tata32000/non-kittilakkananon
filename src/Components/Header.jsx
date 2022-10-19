@@ -45,19 +45,6 @@ export default function Header() {
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
-            {/* <NavDropdown
-              title=""
-              align={{ lg: "start" }}
-              id="basic-nav-dropdown"
-              menuVariant="dark"
-            >
-              <NavDropdown.Item as={Link} to="/about">
-                About me
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/contact">
-                Contact
-              </NavDropdown.Item>
-            </NavDropdown> */}
           </Container>
         </Navbar>
       </MobileView>
