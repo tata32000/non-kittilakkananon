@@ -1,4 +1,5 @@
 # My Personal Website
-Tech Stacks:
-- React
-- Bootstrap
+
+## Tech Stacks
+- [ReactJS](https://reactjs.org)
+- [React Bootstrap](https://react-bootstrap.github.io)
