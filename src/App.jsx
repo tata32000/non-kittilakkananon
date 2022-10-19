@@ -11,7 +11,7 @@ function App() {
   // to do: work, about, contact
   // inspiration: https://diogotc.com
   return (
-    <div className="pages">
+    <div className="App">
       <Router>
         <Header />
         <Routes>
