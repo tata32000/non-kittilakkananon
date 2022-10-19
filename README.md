@@ -1,2 +1,3 @@
-# non-kittilakkananon
- My website
+# My Personal Website
+Tech Stacks:
+- React

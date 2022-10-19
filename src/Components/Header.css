@@ -7,6 +7,12 @@
   padding: 0 1rem;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  display: flex;
+
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }
 @font-face {
   font-family: "San Francisco";

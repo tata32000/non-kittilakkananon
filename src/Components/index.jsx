@@ -1,11 +1,11 @@
 import { SocialIcon } from "react-social-icons";
-import './index.css'
+import "./index.css";
 
 export default function Home() {
   return (
     <>
       <div id="Home">
-        <h1>Non Kittilakkananon</h1>
+        <h1><strong>Non Kittilakkananon</strong></h1>
         <p>
           Electrical Engineering Student at the National University of Singapore
         </p>
