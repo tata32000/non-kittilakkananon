@@ -8,11 +8,15 @@
 }
 #about {
   margin: auto;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
   display: inline-block;
+}
+em{
+  font-size: 1rem;
+  font-weight: 400;
 }
 h1 {
   margin: 20;
@@ -21,16 +25,24 @@ h1 {
   font-weight: 600;
 }
 h2{
-  color: lightblue;
+  color: lightblue !important;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#info{
+  color: #fff !important;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 p {
-  color: #fff;
   font-size: 1.2rem;
   font-weight: 600;
 }
 ul {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 /* unvisited link */
 a:link {
