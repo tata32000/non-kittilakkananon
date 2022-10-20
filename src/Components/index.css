@@ -5,6 +5,8 @@
   margin-top: 13em;
   margin-bottom: 1em;
   display: inline-block;
+  z-index: 1;
+  position: relative;
 }
 #about {
   margin: auto;
@@ -13,28 +15,40 @@
   margin-top: 1em;
   margin-bottom: 1em;
   display: inline-block;
+  z-index: 1;
+  position: relative;
 }
-em{
+em {
   font-size: 1rem;
   font-weight: 400;
+  z-index: 1;
+  position: relative;
 }
 h1 {
   margin: 20;
   color: #fff !important;
   font-size: 3.5rem;
   font-weight: 600;
+  z-index: 1;
+  position: relative;
 }
-h2{
+h2 {
   color: lightblue !important;
+  z-index: 1;
+  position: relative;
 }
-h3{
+h3 {
   font-size: 2.5rem;
   font-weight: 600;
+  z-index: 1;
+  position: relative;
 }
-#info{
+#info {
   color: #fff !important;
   font-size: 1.3rem;
   font-weight: 600;
+  z-index: 1;
+  position: relative;
 }
 p {
   font-size: 1.2rem;
@@ -44,6 +58,10 @@ ul {
   font-size: 1.2rem;
   font-weight: 500;
   list-style: none;
+  margin-right: 1.4em;
+}
+a{
+  color: white;
 }
 /* unvisited link */
 a:link {
