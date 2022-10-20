@@ -12,21 +12,21 @@ export default function Home() {
           Electrical Engineering Student at the National University of Singapore
         </p>
         <SocialIcon
-          bgColor="#21252b"
+          bgColor="none"
           fgColor="lightblue"
           url="https://www.linkedin.com/in/non-kittilakkananon-047728b7/"
           target="_blank"
           rel="noopener noreferrer"
         />
         <SocialIcon
-          bgColor="#21252b"
+          bgColor="none"
           fgColor="lightblue"
           url="https://github.com/tata32000"
           target="_blank"
           rel="noopener noreferrer"
         />
         <SocialIcon
-          bgColor="#21252b"
+          bgColor="none"
           fgColor="lightblue"
           url="mailto: tata32000@hotmail.com"
           target="_blank"

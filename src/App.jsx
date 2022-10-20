@@ -7,6 +7,8 @@ import Contact from "./Components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Particles from "react-tsparticles";
 import ParticleConfig from "./config/ParticlesConfig";
+import ParticlesMobile from "./config/ParticlesMobile";
+import { BrowserView, MobileView } from "react-device-detect";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -21,9 +23,12 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Particles
-          params={ParticleConfig}
-        />
+        <BrowserView>
+          <Particles params={ParticleConfig} />
+        </BrowserView>
+        <MobileView>
+          <Particles params={ParticlesMobile} />
+        </MobileView>
       </Router>
     </div>
   );
