@@ -13,15 +13,22 @@ export default function Home() {
         </p>
         <SocialIcon
           bgColor="#21252b"
-          fgColor="white"
+          fgColor="lightblue"
           url="https://www.linkedin.com/in/non-kittilakkananon-047728b7/"
           target="_blank"
           rel="noopener noreferrer"
         />
         <SocialIcon
           bgColor="#21252b"
-          fgColor="white"
+          fgColor="lightblue"
           url="https://github.com/tata32000"
+          target="_blank"
+          rel="noopener noreferrer"
+        />
+        <SocialIcon
+          bgColor="#21252b"
+          fgColor="lightblue"
+          url="mailto: tata32000@hotmail.com"
           target="_blank"
           rel="noopener noreferrer"
         />

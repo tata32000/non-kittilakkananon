@@ -43,7 +43,7 @@ export default function About() {
           <li>Technologies: React.js, Firebase, MUI, Konva.js, pdf.js</li>
         </ul>
         <h3>
-        <a
+          <a
             href="https://github.com/tata32000/non-kittilakkananon"
             target="_blank"
             rel="noopener noreferrer"
@@ -56,10 +56,103 @@ export default function About() {
           <li>Technologies: React.js, React Bootstrap</li>
         </ul>
         <h2>Certificates</h2>
+        <ul>
+          <li>
+            <a
+              href="https://credentials.nus.edu.sg/292c2dbd-55b2-418b-b3c3-877cbbd5e31a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Orbital - Apollo 11 (Advanced)
+            </a>{" "}
+            <br />
+            <em>NUS Computing</em>
+          </li>
+          <li>
+            <a
+              href="https://www.hackerrank.com/certificates/8be1ab945aeb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              React (Basic)
+            </a>
+            <br />
+            <em>HackerRank</em>
+          </li>
+          <li>
+            <a
+              href="https://www.hackerrank.com/certificates/c5351e367305"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              JavaScript (Basic)
+            </a>
+            <br />
+            <em>HackerRank</em>
+          </li>
+          <li>
+            <a
+              href="https://www.hackerrank.com/certificates/934c52bff714"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Python (Basic)
+            </a>
+            <br />
+            <em>HackerRank</em>
+          </li>
+          <li>
+            <a
+              href="https://www.hackerrank.com/certificates/cb87645735b4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Java (Basic)
+            </a>
+            <br />
+            <em>HackerRank</em>
+          </li>
+          <li>
+            <a
+              href="https://www.hackerrank.com/certificates/0077e6f93412"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Problem Solving (Basic)
+            </a>
+            <br />
+            <em>HackerRank</em>
+          </li>
+          <li>
+            <a
+              href="https://www.datacamp.com/statement-of-accomplishment/course/609f47e1b60d21438fbc975f61d4764e5814292d"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Introduction to Python & Machine Learning (with Analytics Vidhya
+              Hackathons) – DataCamp
+            </a>
+            <br />
+            <em>DataCamp</em>
+          </li>
+          <li>
+            <a
+              href="https://www.coursera.org/account/accomplishments/certificate/5S5M6XT2V34F"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              C for Everyone: Programming Fundamentals
+            </a>
+            <br />
+            <em>Coursera</em>
+          </li>
+        </ul>
         <h2>Skills</h2>
         <ul>
           <li>Programming Languages: Python, Java, JavaScript, C, C++</li>
-          <li>Technologies: React.js, Git, Firebase, Vim, Arduino, HTML, CSS</li>
+          <li>
+            Technologies: React.js, Git, Firebase, Vim, Arduino, HTML, CSS
+          </li>
         </ul>
       </div>
     </>

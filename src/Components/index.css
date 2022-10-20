@@ -8,8 +8,8 @@
 }
 #about {
   margin: auto;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
   display: inline-block;
@@ -43,6 +43,7 @@ p {
 ul {
   font-size: 1.2rem;
   font-weight: 500;
+  list-style: none;
 }
 /* unvisited link */
 a:link {
