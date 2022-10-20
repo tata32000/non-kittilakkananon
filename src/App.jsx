@@ -5,6 +5,8 @@ import Home from "./Components";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Particles from "react-tsparticles";
+import ParticleConfig from "./config/ParticlesConfig";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Particles
+          params={ParticleConfig}
+        />
       </Router>
     </div>
   );
