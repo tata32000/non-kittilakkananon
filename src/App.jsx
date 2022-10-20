@@ -12,8 +12,6 @@ import { BrowserView, MobileView } from "react-device-detect";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  // to do: work, about, contact
-  // inspiration: https://diogotc.com
   return (
     <div className="App">
       <Router>
