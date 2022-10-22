@@ -4,3 +4,4 @@ Web development project for my resume
 - [ReactJS](https://reactjs.org)
 - [React Bootstrap](https://react-bootstrap.github.io)
 - [react-tsparticles](https://www.npmjs.com/package/react-tsparticles)
+- [EmailJS](https://www.emailjs.com)
