@@ -5,7 +5,7 @@ export default function About() {
       <div id="about">
         <h1>Who am I?</h1>
         <p>
-          A second-year Electrical Engineering student at the National University
+          Second-year Electrical Engineering student at the National University
           of Singapore, passionate about Software Engineering.
         </p>
         <h2>Education</h2>
@@ -53,7 +53,7 @@ export default function About() {
         </h3>
         <ul>
           <li>My personal website to showcase my projects and resume</li>
-          <li>Technologies: React.js, React Bootstrap</li>
+          <li>Technologies: React.js, React Bootstrap, EmailJS</li>
         </ul>
         <h2>Certificates</h2>
         <ul>
