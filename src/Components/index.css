@@ -8,6 +8,10 @@
   z-index: 1;
   position: relative;
 }
+.container{
+  position: relative;
+  z-index: 1;
+}
 #about {
   margin: auto;
   margin-left: 1em;
