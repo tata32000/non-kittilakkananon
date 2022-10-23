@@ -59,7 +59,7 @@ export default function About() {
         </h3>
         <ul>
           <li>My personal website to showcase my projects and resume</li>
-          <li>Technologies: React.js, React Bootstrap, EmailJS</li>
+          <li>Technologies: React.js, React Bootstrap, EmailJS, Framer Motion</li>
         </ul>
         <h2>Certificates</h2>
         <ul>
