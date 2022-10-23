@@ -1,13 +1,17 @@
 import { SocialIcon } from "react-social-icons";
+import { motion } from "framer-motion";
 import "./index.css";
 
 export default function Home() {
   return (
     <>
-      <div id="Home">
-        <h1>
-          <strong>Non Kittilakkananon</strong>
-        </h1>
+      <motion.div
+        id="Home"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0, transition: { duration: 0.2 } }}
+      >
+        <h1>Non Kittilakkananon</h1>
         <p>
           Electrical Engineering Student at the National University of Singapore
         </p>
@@ -32,7 +36,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         />
-      </div>
+      </motion.div>
     </>
   );
 }

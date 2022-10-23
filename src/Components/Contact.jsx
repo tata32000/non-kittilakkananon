@@ -2,6 +2,7 @@ import { useState } from "react";
 import { send } from "@emailjs/browser";
 import { Paper, Button } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
+import { motion } from "framer-motion";
 import "./index.css";
 
 export default function Contact() {
@@ -29,7 +30,11 @@ export default function Contact() {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.2 } }}
+    >
       <h1 style={{ margin: 4 }}>Contact Me</h1>
       {isSent ? (
         <div id="Home">
@@ -41,13 +46,12 @@ export default function Contact() {
             <form onSubmit={onSubmit}>
               <div className="mb-3">
                 <label className="form-label" htmlFor="name">
-                  Name:
+                  Full Name
                 </label>
                 <input
                   className="form-control"
-                  placeholder="Your name"
+                  placeholder="Enter full name..."
                   label="Name"
-                  helperText="Please enter your name"
                   name="from_name"
                   value={toSend.from_name}
                   onChange={handleChange}
@@ -56,13 +60,12 @@ export default function Contact() {
               </div>
               <div className="mb-3">
                 <label className="form-label" htmlFor="email">
-                  Email:
+                  Email
                 </label>
                 <input
                   className="form-control"
-                  placeholder="Your email"
+                  placeholder="Enter email..."
                   label="Email"
-                  helperText="Please enter your email"
                   name="reply_to"
                   value={toSend.reply_to}
                   onChange={handleChange}
@@ -79,12 +82,13 @@ export default function Contact() {
                   required
                   label="Message"
                   name="message"
+                  placeholder="Enter message..."
                   value={toSend.message}
                   onChange={handleChange}
                 />
               </div>
               <Button variant="contained" endIcon={<SendIcon />} type="submit">
-                Submit
+                Send
               </Button>
             </form>
           </Paper>
@@ -100,6 +104,6 @@ export default function Contact() {
           </p>
         </div>
       )}
-    </>
+    </motion.div>
   );
 }

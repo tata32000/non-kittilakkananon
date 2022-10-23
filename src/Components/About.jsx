@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
 import "./index.css";
 export default function About() {
   return (
     <>
-      <div id="about">
+      <motion.div
+        id="about"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0, transition: { duration: 0.2 } }}
+      >
         <h1>Who am I?</h1>
         <p>
           Second-year Electrical Engineering student at the National University
@@ -154,7 +160,7 @@ export default function About() {
             Technologies: React.js, Git, Firebase, Vim, Arduino, HTML, CSS
           </li>
         </ul>
-      </div>
+      </motion.div>
     </>
   );
 }
