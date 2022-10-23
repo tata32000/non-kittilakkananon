@@ -46,7 +46,10 @@ export default function About() {
             NUS Orbital (Apollo 11) LEVEL OF ACHIEVEMENT FOR THE ORBITAL
             PROGRAMME
           </li>
-          <li>Technologies: React.js, Firebase, MUI, Konva.js, pdf.js</li>
+          <li>
+            <strong>Technologies:</strong> React.js, Firebase, MUI, Konva.js,
+            pdf.js
+          </li>
         </ul>
         <h3>
           <a
@@ -59,7 +62,10 @@ export default function About() {
         </h3>
         <ul>
           <li>My personal website to showcase my projects and resume</li>
-          <li>Technologies: React.js, React Bootstrap, EmailJS, Framer Motion</li>
+          <li>
+            <strong>Technologies:</strong> React.js, React Bootstrap, EmailJS,
+            Framer Motion
+          </li>
         </ul>
         <h2>Certificates</h2>
         <ul>
@@ -155,9 +161,13 @@ export default function About() {
         </ul>
         <h2>Skills</h2>
         <ul>
-          <li>Programming Languages: Python, Java, JavaScript, C, C++</li>
           <li>
-            Technologies: React.js, Git, Firebase, Vim, Arduino, HTML, CSS
+            <strong>Programming Languages:</strong> Python, Java, JavaScript, C,
+            C++
+          </li>
+          <li>
+            <strong>Technologies:</strong> React.js, Git, Firebase, Vim,
+            Arduino, HTML, CSS
           </li>
         </ul>
       </motion.div>
