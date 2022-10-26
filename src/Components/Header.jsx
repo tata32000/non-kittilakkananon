@@ -17,6 +17,13 @@ export default function Header() {
               <Nav.Link as={Link} to="/about">
                 About me
               </Nav.Link>
+              <Nav.Link
+                href="https://drive.google.com/file/d/1pfmZwTUy_6lQOiSSF8iH0R4UcNhV5r6d/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </Nav.Link>
               <Nav.Link as={Link} to="/contact">
                 Contact
               </Nav.Link>
@@ -39,6 +46,13 @@ export default function Header() {
               <Nav className="nav-link">
                 <Nav.Link as={Link} to="/about">
                   About me
+                </Nav.Link>
+                <Nav.Link
+                  href="https://drive.google.com/file/d/1pfmZwTUy_6lQOiSSF8iH0R4UcNhV5r6d/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
                 </Nav.Link>
                 <Nav.Link as={Link} to="/contact">
                   Contact
