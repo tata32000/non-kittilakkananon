@@ -5,6 +5,8 @@ import { BrowserView, MobileView } from "react-device-detect";
 import "./Header.css";
 
 export default function Header() {
+  const resumeLink =
+    "https://drive.google.com/file/d/1pfmZwTUy_6lQOiSSF8iH0R4UcNhV5r6d/view?usp=sharing";
   return (
     <>
       <BrowserView>
@@ -18,7 +20,7 @@ export default function Header() {
                 About me
               </Nav.Link>
               <Nav.Link
-                href="https://drive.google.com/file/d/1pfmZwTUy_6lQOiSSF8iH0R4UcNhV5r6d/view?usp=sharing"
+                href={resumeLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,7 +50,7 @@ export default function Header() {
                   About me
                 </Nav.Link>
                 <Nav.Link
-                  href="https://drive.google.com/file/d/1pfmZwTUy_6lQOiSSF8iH0R4UcNhV5r6d/view?usp=sharing"
+                  href={resumeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
