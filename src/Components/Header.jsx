@@ -6,7 +6,7 @@ import "./Header.css";
 
 export default function Header() {
   const resumeLink =
-    "https://drive.google.com/file/d/1pfmZwTUy_6lQOiSSF8iH0R4UcNhV5r6d/view?usp=sharing";
+    "https://drive.google.com/file/d/1M84RMAsw6Qt0ZvuGLmOC0n_03pX232oY/view?usp=sharing";
   return (
     <>
       <BrowserView>
