@@ -5,16 +5,13 @@ import "./index.css";
 export default function Home() {
   return (
     <>
+    <div className="Home">
       <motion.div
-        id="Home"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0, transition: { duration: 0.2 } }}
       >
         <h1>Non Kittilakkananon</h1>
-        <p>
-          Electrical Engineering Student at the National University of Singapore
-        </p>
         <SocialIcon
           bgColor="none"
           fgColor="lightblue"
@@ -32,11 +29,12 @@ export default function Home() {
         <SocialIcon
           bgColor="none"
           fgColor="lightblue"
-          url="mailto: tata32000@hotmail.com"
+          url="mailto: nkittilakkananon@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         />
       </motion.div>
+      </div>
     </>
   );
 }

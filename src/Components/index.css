@@ -1,13 +1,14 @@
-#Home {
-  margin: auto;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 13em;
-  margin-bottom: 1em;
-  display: inline-block;
+.Home {
+  display: flex;
   z-index: 1;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  max-height: 90%; 
 }
+
+
 .container{
   position: relative;
   z-index: 1;
